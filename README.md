@@ -1,5 +1,5 @@
-# Q3Hack
-Q3 Hack for the SE Commercial Team with the hardcoded mappings, API Keys, and passwords removed.
+# CCX Agent Manager - Team 6's Q3 Hackathon entry
+Our Q3 Hack entry for the SE Commercial Team with the hardcoded mappings, API Keys, and passwords removed. By Jordan Hobday, Rhys Harris, Sam Hastings, and Azhar Ahmed
 
 This uses ThousandEyes APIs to monitor Contact Centre Agent's home broadband connections (loss, latency, jitter). If thresholds are hit, they are made not available for calls, and their supervisors are alerted via a Webex bot. Supervisors can then view the data via a URL, and assess whether to send a command into Webex which fails that agent over to 4G.
 
