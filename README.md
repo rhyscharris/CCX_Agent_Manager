@@ -3,6 +3,7 @@ Our Q3 Hack entry for the SE Commercial Team with the hardcoded mappings, API Ke
 
 This uses ThousandEyes APIs to monitor Contact Centre Agent's home broadband connections (loss, latency, jitter). If thresholds are hit, they are made not available for calls, and their supervisors are alerted via a Webex bot. Supervisors can then view the data via a URL, and assess whether to send a command into Webex which fails that agent over to 4G.
 
+## Setup:
 To set up, git clone the repo to your local environment.
 
 After that, set up the virtual environment by navigating to the Q3Hack directory then run, 'source venv/bin/activate' install the dependencies (haven't made a requirements.txt as of yet!)
